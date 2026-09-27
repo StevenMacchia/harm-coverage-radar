@@ -1,0 +1,145 @@
+{
+  "levels": [
+    "None",
+    "Partial",
+    "Solid",
+    "Strong"
+  ],
+  "layer_weights": {
+    "detect": 5,
+    "enforce": 4,
+    "policy": 3,
+    "measure": 2,
+    "appeal": 2
+  },
+  "harm_areas": [
+    {
+      "key": "child",
+      "area": "Child safety",
+      "includes": [
+        "Child safety"
+      ]
+    },
+    {
+      "key": "sexual",
+      "area": "Sexual harm",
+      "includes": [
+        "Sexual exploitation"
+      ]
+    },
+    {
+      "key": "harass",
+      "area": "Harassment & hate",
+      "includes": [
+        "Harassment and hate"
+      ]
+    },
+    {
+      "key": "violent",
+      "area": "Violence & self-harm",
+      "includes": [
+        "Violent and extremist content",
+        "Self-harm and wellbeing"
+      ]
+    },
+    {
+      "key": "ai",
+      "area": "AI misuse",
+      "includes": [
+        "AI misuse"
+      ]
+    },
+    {
+      "key": "privacy",
+      "area": "Privacy & physical safety",
+      "includes": [
+        "Privacy and surveillance",
+        "Physical safety"
+      ]
+    },
+    {
+      "key": "integrity",
+      "area": "Platform abuse",
+      "includes": [
+        "Platform integrity",
+        "Account security",
+        "Illegal and regulated goods"
+      ]
+    },
+    {
+      "key": "fraud",
+      "area": "Fraud & financial crime",
+      "includes": [
+        "Fraud and scams",
+        "Financial crime"
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "key": "policy",
+      "layer": "Policy",
+      "question": "Is there a clear rule, with guidance reviewers can apply?",
+      "levels": [
+        "No rule covers it.",
+        "A public rule exists, but reviewers lack detailed guidance.",
+        "A clear rule with internal guidelines, examples and an owner.",
+        "Tested against edge cases, reviewed on a schedule, and shaped by appeals data."
+      ],
+      "next_step": "Write a clear rule for {harm area}, with internal guidelines, examples and edge cases reviewers can apply.",
+      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#policy"
+    },
+    {
+      "key": "detect",
+      "layer": "Detection",
+      "question": "How do you find it, beyond waiting for user reports?",
+      "levels": [
+        "Found only when users report it.",
+        "Keyword lists or basic filters catch obvious cases.",
+        "Hash matching, classifiers or behavior signals find most of it proactively.",
+        "Detection quality is measured, models learn from reviewer decisions, and red teams probe for gaps."
+      ],
+      "next_step": "Add proactive detection for {harm area}, such as hash matching, classifiers or behavior signals, so you don't rely on user reports.",
+      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#premortem"
+    },
+    {
+      "key": "enforce",
+      "layer": "Enforcement",
+      "question": "Can trained people act on it quickly and consistently?",
+      "levels": [
+        "No trained reviewers or defined actions.",
+        "Reviewers handle it without specific training or service levels.",
+        "Trained reviewers, clear actions and service levels by severity.",
+        "Specialist reviewers, round-the-clock cover for the worst cases, and escalation to legal and law enforcement."
+      ],
+      "next_step": "Train reviewers on {harm area}, define the actions they can take, and set service levels by severity.",
+      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#vendors"
+    },
+    {
+      "key": "appeal",
+      "layer": "Appeals",
+      "question": "Can users contest decisions, and do mistakes get fixed?",
+      "levels": [
+        "Users can't contest decisions.",
+        "Appeals go to a general support inbox.",
+        "A formal appeal with a second reviewer and a response target.",
+        "Overturn rates are tracked and feed back into policy and training."
+      ],
+      "next_step": "Let users appeal {harm area} decisions, with a second reviewer and a response target.",
+      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#appeal"
+    },
+    {
+      "key": "measure",
+      "layer": "Measurement",
+      "question": "Do you know how much of it users see, and how well you respond?",
+      "levels": [
+        "Nothing is measured.",
+        "Report and removal counts only.",
+        "Prevalence, speed and accuracy are tracked.",
+        "Metrics have targets and owners, and leadership reviews them."
+      ],
+      "next_step": "Track prevalence, time to action and accuracy for {harm area}, and review them with leadership.",
+      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#metrics"
+    }
+  ]
+}
