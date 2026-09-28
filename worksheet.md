@@ -1,6 +1,6 @@
 # Coverage worksheet
 
-Print this or copy it into a doc. Rate each layer 0 (none) to 3 (strong). Coverage for an area is its total divided by 15. The [live tool](https://stevenmacchia.github.io/ts-workbench/#coverage) does the scoring, overlays your pre-mortem risk and ranks the gaps.
+Print this or copy it into a doc. Rate each layer 0 (none) to 3 (strong). Coverage for an area is its total divided by 15. The [live tool](https://stevenmacchia.com/ts-workbench/#coverage) does the scoring, overlays your pre-mortem risk and ranks the gaps.
 
 | Harm area | Policy | Detection | Enforcement | Appeals | Measurement | Coverage |
 |---|---|---|---|---|---|---|

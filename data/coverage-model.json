@@ -87,7 +87,7 @@
         "Tested against edge cases, reviewed on a schedule, and shaped by appeals data."
       ],
       "next_step": "Write a clear rule for {harm area}, with internal guidelines, examples and edge cases reviewers can apply.",
-      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#policy"
+      "related_tool": "https://stevenmacchia.com/ts-workbench/#policy"
     },
     {
       "key": "detect",
@@ -100,7 +100,7 @@
         "Detection quality is measured, models learn from reviewer decisions, and red teams probe for gaps."
       ],
       "next_step": "Add proactive detection for {harm area}, such as hash matching, classifiers or behavior signals, so you don't rely on user reports.",
-      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#premortem"
+      "related_tool": "https://stevenmacchia.com/ts-workbench/#premortem"
     },
     {
       "key": "enforce",
@@ -113,7 +113,7 @@
         "Specialist reviewers, round-the-clock cover for the worst cases, and escalation to legal and law enforcement."
       ],
       "next_step": "Train reviewers on {harm area}, define the actions they can take, and set service levels by severity.",
-      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#vendors"
+      "related_tool": "https://stevenmacchia.com/ts-workbench/#vendors"
     },
     {
       "key": "appeal",
@@ -126,7 +126,7 @@
         "Overturn rates are tracked and feed back into policy and training."
       ],
       "next_step": "Let users appeal {harm area} decisions, with a second reviewer and a response target.",
-      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#appeal"
+      "related_tool": "https://stevenmacchia.com/ts-workbench/#appeal"
     },
     {
       "key": "measure",
@@ -139,7 +139,7 @@
         "Metrics have targets and owners, and leadership reviews them."
       ],
       "next_step": "Track prevalence, time to action and accuracy for {harm area}, and review them with leadership.",
-      "related_tool": "https://stevenmacchia.github.io/ts-workbench/#metrics"
+      "related_tool": "https://stevenmacchia.com/ts-workbench/#metrics"
     }
   ]
 }

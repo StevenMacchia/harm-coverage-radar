@@ -4,7 +4,7 @@
 
 Rate five layers of defense (policy, detection, enforcement, appeals and measurement) for each of 8 kinds of harm, then see them on a radar against your products' risk from the abuse pre-mortem. Where risk outruns coverage, it names the weakest layer and the next step.
 
-**[Try it live](https://stevenmacchia.github.io/ts-workbench/#coverage)** · part of [T&S Workbench](https://github.com/stevenmacchia/ts-workbench) · free, no sign-up
+**[Try it live](https://stevenmacchia.com/ts-workbench/#coverage)** · part of [T&S Workbench](https://github.com/stevenmacchia/ts-workbench) · free, no sign-up
 
 ![Harm Coverage Radar](assets/coverage.png)
 
